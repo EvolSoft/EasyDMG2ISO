@@ -1,0 +1,2 @@
+# DMG2ISO
+DMG2ISO tool for OSX
