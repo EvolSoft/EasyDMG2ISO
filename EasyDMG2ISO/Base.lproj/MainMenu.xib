@@ -13,7 +13,7 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="DMG2ISO" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="EasyDMG2ISO" customModuleProvider="target">
             <connections>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
@@ -21,11 +21,11 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
-                <menuItem title="DMG2ISO" id="1Xt-HY-uBw">
+                <menuItem title="EasyDMG2ISO" id="1Xt-HY-uBw">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="DMG2ISO" systemMenu="apple" id="uQy-DD-JDr">
+                    <menu key="submenu" title="EasyDMG2ISO" systemMenu="apple" id="uQy-DD-JDr">
                         <items>
-                            <menuItem title="About DMG2ISO" id="5kV-Vb-QxS">
+                            <menuItem title="About EasyDMG2ISO" id="5kV-Vb-QxS">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
@@ -39,7 +39,7 @@
                                 <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                            <menuItem title="Hide DMG2ISO" keyEquivalent="h" id="Olw-nP-bQN">
+                            <menuItem title="Hide EasyDMG2ISO" keyEquivalent="h" id="Olw-nP-bQN">
                                 <connections>
                                     <action selector="hide:" target="-1" id="PnN-Uc-m68"/>
                                 </connections>
@@ -57,7 +57,7 @@
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                            <menuItem title="Quit DMG2ISO" keyEquivalent="q" id="4sb-4s-VLi">
+                            <menuItem title="Quit EasyDMG2ISO" keyEquivalent="q" id="4sb-4s-VLi">
                                 <connections>
                                     <action selector="terminate:" target="-1" id="Te7-pn-YzF"/>
                                 </connections>
@@ -670,7 +670,7 @@
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                         <items>
-                            <menuItem title="DMG2ISO Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                            <menuItem title="EasyDMG2ISO Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                 <connections>
                                     <action selector="showHelp:" target="-1" id="y7X-2Q-9no"/>
                                 </connections>
@@ -681,7 +681,7 @@
             </items>
             <point key="canvasLocation" x="141" y="154"/>
         </menu>
-        <window title="DMG2ISO" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
+        <window title="EasyDMG2ISO" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <rect key="contentRect" x="335" y="390" width="460" height="360"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
@@ -709,7 +709,7 @@
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="DragBoxFull" id="eua-CR-CSO"/>
                                         </imageView>
-                                        <customView id="n2Z-j4-rJ8" customClass="DropDMGView" customModule="DMG2ISO" customModuleProvider="target">
+                                        <customView id="n2Z-j4-rJ8" customClass="DropDMGView" customModule="EasyDMG2ISO" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="460" height="360"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <subviews>
@@ -755,7 +755,7 @@
                                 </view>
                             </tabViewItem>
                             <tabViewItem identifier="" id="Hi4-sB-98L">
-                                <view key="view" id="qDe-iN-kA2" customClass="FileInfoView" customModule="DMG2ISO" customModuleProvider="target">
+                                <view key="view" id="qDe-iN-kA2" customClass="FileInfoView" customModule="EasyDMG2ISO" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="460" height="360"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -792,7 +792,7 @@ CA
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                             <popUpButtonCell key="cell" type="push" title="ISO" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="bfQ-09-rdR" id="2YR-LT-YcN">
                                                 <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                                <font key="font" metaFont="menu"/>
+                                                <font key="font" metaFont="message"/>
                                                 <menu key="menu" id="fXI-MY-sUn">
                                                     <items>
                                                         <menuItem title="ISO" state="on" id="bfQ-09-rdR">
@@ -854,7 +854,7 @@ CA
                                 </view>
                             </tabViewItem>
                             <tabViewItem identifier="" id="hGA-RO-Frt">
-                                <view key="view" id="HID-xJ-rUG" customClass="StatusView" customModule="DMG2ISO" customModuleProvider="target">
+                                <view key="view" id="HID-xJ-rUG" customClass="StatusView" customModule="EasyDMG2ISO" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="460" height="360"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
@@ -915,7 +915,7 @@ DQ
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="131" y="158" width="418" height="78"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1440" height="875"/>
-            <view key="contentView" id="cTG-el-cuL" customClass="ProgressView" customModule="DMG2ISO" customModuleProvider="target">
+            <view key="contentView" id="cTG-el-cuL" customClass="ProgressView" customModule="EasyDMG2ISO" customModuleProvider="target">
                 <rect key="frame" x="0.0" y="0.0" width="418" height="78"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>

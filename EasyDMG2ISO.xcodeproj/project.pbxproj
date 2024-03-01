@@ -17,12 +17,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		061B56582559EAB70035B431 /* DMG2ISO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMG2ISO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		061B56582559EAB70035B431 /* EasyDMG2ISO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyDMG2ISO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		061B565B2559EAB70035B431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		061B565D2559EABC0035B431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		061B56602559EABC0035B431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		061B56622559EABC0035B431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		061B56632559EABC0035B431 /* DMG2ISO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DMG2ISO.entitlements; sourceTree = "<group>"; };
+		061B56632559EABC0035B431 /* EasyDMG2ISO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyDMG2ISO.entitlements; sourceTree = "<group>"; };
 		061B56692559ED550035B431 /* DropDMGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDMGView.swift; sourceTree = "<group>"; };
 		06C6B2A82559F3A600027CF2 /* FileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfoView.swift; sourceTree = "<group>"; };
 		06F3494C255BF0A7009DDDF9 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		061B564F2559EAB70035B431 = {
 			isa = PBXGroup;
 			children = (
-				061B565A2559EAB70035B431 /* DMG2ISO */,
+				061B565A2559EAB70035B431 /* EasyDMG2ISO */,
 				061B56592559EAB70035B431 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,33 +51,33 @@
 		061B56592559EAB70035B431 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				061B56582559EAB70035B431 /* DMG2ISO.app */,
+				061B56582559EAB70035B431 /* EasyDMG2ISO.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		061B565A2559EAB70035B431 /* DMG2ISO */ = {
+		061B565A2559EAB70035B431 /* EasyDMG2ISO */ = {
 			isa = PBXGroup;
 			children = (
 				061B565B2559EAB70035B431 /* AppDelegate.swift */,
 				061B565D2559EABC0035B431 /* Assets.xcassets */,
 				061B565F2559EABC0035B431 /* MainMenu.xib */,
 				061B56622559EABC0035B431 /* Info.plist */,
-				061B56632559EABC0035B431 /* DMG2ISO.entitlements */,
+				061B56632559EABC0035B431 /* EasyDMG2ISO.entitlements */,
 				061B56692559ED550035B431 /* DropDMGView.swift */,
 				06C6B2A82559F3A600027CF2 /* FileInfoView.swift */,
 				06F3494C255BF0A7009DDDF9 /* StatusView.swift */,
 				06F78BC0255D815D0046E6ED /* ProgressView.swift */,
 			);
-			path = DMG2ISO;
+			path = EasyDMG2ISO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		061B56572559EAB70035B431 /* DMG2ISO */ = {
+		061B56572559EAB70035B431 /* EasyDMG2ISO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 061B56662559EABC0035B431 /* Build configuration list for PBXNativeTarget "DMG2ISO" */;
+			buildConfigurationList = 061B56662559EABC0035B431 /* Build configuration list for PBXNativeTarget "EasyDMG2ISO" */;
 			buildPhases = (
 				061B56542559EAB70035B431 /* Sources */,
 				061B56552559EAB70035B431 /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = DMG2ISO;
-			productName = DMG2ISO;
-			productReference = 061B56582559EAB70035B431 /* DMG2ISO.app */;
+			name = EasyDMG2ISO;
+			productName = EasyDMG2ISO;
+			productReference = 061B56582559EAB70035B431 /* EasyDMG2ISO.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 061B56532559EAB70035B431 /* Build configuration list for PBXProject "DMG2ISO" */;
+			buildConfigurationList = 061B56532559EAB70035B431 /* Build configuration list for PBXProject "EasyDMG2ISO" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				061B56572559EAB70035B431 /* DMG2ISO */,
+				061B56572559EAB70035B431 /* EasyDMG2ISO */,
 			);
 		};
 /* End PBXProject section */
@@ -281,18 +281,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DMG2ISO/DMG2ISO.entitlements;
+				CODE_SIGN_ENTITLEMENTS = EasyDMG2ISO/EasyDMG2ISO.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = DMG2ISO/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DMG2ISO;
+				INFOPLIST_FILE = EasyDMG2ISO/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EasyDMG2ISO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.evolsoft.DMG2ISO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.evolsoft.EasyDMG2ISO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -302,18 +302,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DMG2ISO/DMG2ISO.entitlements;
+				CODE_SIGN_ENTITLEMENTS = EasyDMG2ISO/EasyDMG2ISO.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = DMG2ISO/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DMG2ISO;
+				INFOPLIST_FILE = EasyDMG2ISO/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = EasyDMG2ISO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.evolsoft.DMG2ISO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.evolsoft.EasyDMG2ISO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		061B56532559EAB70035B431 /* Build configuration list for PBXProject "DMG2ISO" */ = {
+		061B56532559EAB70035B431 /* Build configuration list for PBXProject "EasyDMG2ISO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				061B56642559EABC0035B431 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		061B56662559EABC0035B431 /* Build configuration list for PBXNativeTarget "DMG2ISO" */ = {
+		061B56662559EABC0035B431 /* Build configuration list for PBXNativeTarget "EasyDMG2ISO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				061B56672559EABC0035B431 /* Debug */,
