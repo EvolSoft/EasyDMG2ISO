@@ -1,13 +1,13 @@
 ![start2](https://cloud.githubusercontent.com/assets/10303538/6315586/9463fa5c-ba06-11e4-8f30-ce7d8219c27d.png)
 
-# DMG2ISO
+# EasyDMG2ISO
 
-[![Download DMG2ISO](https://img.shields.io/sourceforge/dt/dmg-2-iso.svg)](https://sourceforge.net/projects/dmg-2-iso/files/latest/download)
+[![Download EasyDMG2ISO](https://img.shields.io/sourceforge/dm/easydmg2iso.svg)](https://sourceforge.net/projects/easydmg2iso/files/latest/download)
 
-DMG2ISO is a small and useful utility to convert DMG files to ISO or CDR format.
+EasyDMG2ISO is a small and useful utility to convert DMG files to ISO or CDR format.
 A DMG file is a kind of Disk Image File commonly used on macOS platform. Sometimes it may be necessary to have the Disk Image in ISO or CDR format for compatibility reasons with other platforms.
 
-![1](https://github.com/EvolSoft/DMG2ISO/assets/10297075/18b6c819-d3a6-423f-bd69-3cc8c8358f88)
+![1](https://github.com/EvolSoft/EasyDMG2ISO/assets/10297075/32f0805d-5568-49e3-8066-efea169ba8a0)
 
 ## Requirements
 
@@ -37,4 +37,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ## Contributing
 
-If you want to contribute to this project please follow the [Contribution Guidelines](https://github.com/EvolSoft/DMG2ISO/blob/master/CONTRIBUTING.md).
+If you want to contribute to this project please follow the [Contribution Guidelines](https://github.com/EvolSoft/EasyDMG2ISO/blob/master/CONTRIBUTING.md).
