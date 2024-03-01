@@ -2,7 +2,7 @@
 
 # EasyDMG2ISO
 
-[![Download EasyDMG2ISO](https://img.shields.io/sourceforge/dm/easydmg2iso.svg)](https://sourceforge.net/projects/easydmg2iso/files/latest/download)
+[![Download EasyDMG2ISO](https://img.shields.io/sourceforge/dt/easydmg2iso.svg)](https://sourceforge.net/projects/easydmg2iso/files/latest/download)
 
 EasyDMG2ISO is a small and useful utility to convert DMG files to ISO or CDR format.
 A DMG file is a kind of Disk Image File commonly used on macOS platform. Sometimes it may be necessary to have the Disk Image in ISO or CDR format for compatibility reasons with other platforms.
